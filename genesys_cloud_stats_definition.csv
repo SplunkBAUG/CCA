@@ -1,0 +1,54 @@
+Metric,Description
+nBlindTransferred,The number of interactions that were blind transferred.
+nCobrowseSessions,The number of connected cobrowse sessions.
+nConnected,The number of connected customer sessions.
+nConsult,The number of interactions where an agent consulted another agent.
+nConsultTransferred,The number of interactions that were transferred as part of a consult.
+nError,The number of active sessions aborted due to an Edge or adapter error event.
+nOffered,The number of interactions offered to a queue by an Automatic Call Distributor (ACD).
+nOutbound,The number of outbound conversations placed on behalf of a queue.
+nOutboundAbandoned,The number of outbound dialer calls that were abandoned.
+nOutboundAttempted,The number of outbound dialer calls attempted.
+nOutboundConnected,The number of outbound dialer calls that connected.
+nOverSla,The number of answered interactions that were over the SLA threshold.
+nStateTransitionError,The number of errors caused by Edge clock skew.
+nTransferred,The number of interactions transferred. This includes blind and consult transfers.
+oExternalMediaCount,Observed total media count for an external participant.
+oMediaCount,"Observed total media count for an internal participant, e.g. an agent."
+oServiceLevel,The service level for a queue.
+oServiceTarget,The service target for a queue.
+tAbandon,The amount of time before an end user abandoned an interaction in a queue.
+tAcd,"The amount of time spent waiting in queue before an interaction was answered, abandoned, or flowed out of queue."
+tAcw,The amount of time spent in after call work.
+tAgentResponseTime,The amount of time the user spent waiting for a response from the agent.
+tAlert,The time an agent was being alerted.
+tAnswered,The amount of time an interaction waited to be connected to an agent.
+tCallback,The time an agent spent on a callback while a call is active.
+tCallbackComplete,The overall time an agent spent on a callback while calls are active.
+tContacting,The time that it takes to establish a connection with your station on an outbound call.
+tDialing,The time an agent spent dialing.
+tFlowOut,The amount of time before an interaction was transferred out of a queue (and not answered by an agent).
+tHandle,"The complete time an agent spent on an interaction, includes time spent contacting, time spent dialing, talk time, hold time, and after call work."
+tHeld,The amount of time an interaction was placed on hold.
+tHeldComplete,The overall hold time for an interaction.
+tIvr,The amount of time spent in IVR.
+tMonitoring,The time spent monitoring an interaction.
+tNotResponding,The time an agent was being alerted without responding to a queue conversation.
+tShortAbandon,Subset of tAbandon with a duration under the short abandon threshold.
+tTalk,Time an agent spent talking/interacting.
+tTalkComplete,The overall time an agent spent talking/interacting.
+tUserResponseTime,The amount of time spent waiting for an end user response.
+tVoicemail,The amount of time spent in voicemail.
+tWait,"The amount of time spent waiting in queue before an interaction was answered, abandoned, or flowed out of queue."
+oAlerting,Observed number of alerting conversations on a queue.
+oInteracting,Observed number of current users interacting on a queue.
+oWaiting,Observed number of interactions waiting in a queue.
+oFlow,Observed number of current interactions in a flow.
+oActiveQueues,Observed number of queues that the user is active on.
+oMemberQueues,Observed number of queues for the user.
+oActiveUsers,Observed number of active users in a queue.
+oMemberUsers,Observed number of members in a queue.
+oOffQueueUsers,Observed number of users that are off queue.
+oOnQueueUsers,Observed number of users that are on queue.
+oUserPresences,Observed number of users with a particular presence status.
+oUserRoutingStatuses,Observed number of users with a particular routing status.
